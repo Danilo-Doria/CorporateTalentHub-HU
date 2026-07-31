@@ -61,5 +61,19 @@ public class App {
 
         */
         
+        // Se crean dos objetos distintos con el mismo contenido.
+        String texto1 = new String("Hola");
+        String texto2 = new String("Hola");
+
+        // Comparación con ==
+        // El resultado será false porque el operador == compara las referencias,
+        // es decir, verifica si ambas variables apuntan al mismo espacio de memoria
+        // en el Heap, no si tienen el mismo contenido.
+        //
+        // Aunque texto1 y texto2 contienen "Hola", cada uno fue creado como un
+        // objeto diferente, por lo que ocupan posiciones distintas en la memoria Heap.
+        System.out.println(texto1 == texto2); // false
+        
+        
     }
 }
