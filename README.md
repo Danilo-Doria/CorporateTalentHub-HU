@@ -1,7 +1,7 @@
 # Nombre del Proyecto
 
 Este proyecto tiene la finalidad afianzar los conocimiento de programacion, pero ahora enfocados a Java,
-tambien adentrarse en la programación orientada a objetos y entender cada uno de sus principios.
+tambien adentrarse en la programación orientada a objetos y entender cada uno de sus principios
 
 ## 📋 Requisitos
 
