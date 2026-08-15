@@ -9,20 +9,20 @@ package com.mycompany.corporatetalenthub.modelo;
  */
 public class Empleado {
 
-    private final int id;
+    private final String id;
     private final String nombre;
     private final byte edad;
     private final double salario;
     private double promedioDesempeno;
 
-    public Empleado(int id, String nombre, byte edad, double salario) {
+    public Empleado(String id, String nombre, byte edad, double salario) {
         this.id = id;
         this.nombre = nombre;
         this.edad = edad;
         this.salario = salario;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -44,5 +44,11 @@ public class Empleado {
 
     public void setPromedioDesempeno(double promedioDesempeno) {
         this.promedioDesempeno = promedioDesempeno;
-    }   
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado " + "id= " + id + ", nombre= " + nombre;
+    }
+    
 }
