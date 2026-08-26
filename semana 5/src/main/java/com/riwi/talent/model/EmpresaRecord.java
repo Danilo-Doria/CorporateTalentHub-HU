@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.modelo;
+package com.riwi.talent.model;
 
 /**
  * Un Record reduce la verbosidad: Java genera constructor, accesores, equals,

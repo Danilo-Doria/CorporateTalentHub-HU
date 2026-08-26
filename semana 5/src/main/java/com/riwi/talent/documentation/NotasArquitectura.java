@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.documentation;
+package com.riwi.talent.documentation;
 
 /**
  * Notas de arquitectura del proyecto Corporate Talent Hub.

@@ -1,0 +1,18 @@
+services:
+  postgres-db:
+    image: postgres:16
+    container_name: riwi_talent_hub_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_123
+      POSTGRES_DB: riwi_talent_hub
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Ejecuta automáticamente el script SQL al crear el contenedor
+      - ./db-init:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres_data:

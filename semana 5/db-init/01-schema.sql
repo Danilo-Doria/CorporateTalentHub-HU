@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS empleados (
+    id VARCHAR(50) PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    edad SMALLINT NOT NULL,
+    salario DECIMAL(12, 2) NOT NULL
+);

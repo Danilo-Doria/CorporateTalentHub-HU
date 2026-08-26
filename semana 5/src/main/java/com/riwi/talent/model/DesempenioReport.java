@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.modelo;
+package com.riwi.talent.model;
 
 /*
 import java.util.Objects;

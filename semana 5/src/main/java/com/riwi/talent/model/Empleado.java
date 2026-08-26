@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.modelo;
+package com.riwi.talent.model;
 
 /*
     Modelo tradicional compatible con la sintaxis de Java 8.

@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.modelo;
+package com.riwi.talent.model;
 
 /* 
     Las Sealed Classes (Clases Selladas) introducidas en Java representan 

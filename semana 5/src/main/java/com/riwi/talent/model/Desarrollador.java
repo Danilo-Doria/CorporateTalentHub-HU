@@ -1,4 +1,4 @@
-package com.mycompany.corporatetalenthub.modelo;
+package com.riwi.talent.model;
 
 public final class Desarrollador extends Persona implements Promocionable {
 
