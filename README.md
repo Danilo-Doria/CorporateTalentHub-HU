@@ -52,25 +52,104 @@ mvn exec:java
 
 ```
 .
-├── pom.xml
 ├── README.md
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── com
-│   │           └── mycompany
-│   │               └── corporatetalenthub
-│   │                   ├── App.java
-│   │                   ├── documentation
-│   │                   │   └── NotasArquitectura.java
-│   │                   └── modelo
-│   │                       ├── Empleado.java
-│   │                       └── EmpresaRecord.java
-│   └── test
-│       └── java
-└── target
-    ├── generated-sources
-    └── maven-status
+├── semana 1
+│   ├── pom.xml
+│   └── src
+│       └── main
+│           └── java
+│               └── com
+│                   └── mycompany
+│                       └── corporatetalenthub
+│                           ├── App.java
+│                           ├── documentation
+│                           │   └── NotasArquitectura.java
+│                           └── modelo
+│                               ├── Empleado.java
+│                               └── EmpresaRecord.java
+├── semana 2
+│   ├── pom.xml
+│   └── src
+│       └── main
+│          └── java
+│              └── com
+│                  └── mycompany
+│                      └── corporatetalenthub
+│                          ├── App.java
+│                          ├── documentation
+│                          │   └── NotasArquitectura.java
+│                          └── modelo
+│                              ├── Empleado.java
+│                              └── EmpresaRecord.java
+├── semana 3
+│   ├── pom.xml
+│   └── src
+│       └── main
+│          └── java
+│              └── com
+│                  └── mycompany
+│                      └── corporatetalenthub
+│                          ├── App.java
+│                          ├── documentation
+│                          │   └── NotasArquitectura.java
+│                          └── modelo
+│                              ├── Empleado.java
+│                              └── EmpresaRecord.java
+├── semana 4
+│   ├── pom.xml
+│   └── src
+│       └── main
+│          └── java
+│              └── com
+│                  └── mycompany
+│                      └── corporatetalenthub
+│                          ├── App.java
+│                          ├── documentation
+│                          │   └── NotasArquitectura.java
+│                          └── modelo
+│                              ├── ConsultorExterno.java
+│                              ├── Desarrollador.java
+│                              ├── DesempenioReport.java
+│                              ├── Empleado.java
+│                              ├── EmpresaRecord.java
+│                              ├── Gerente.java
+│                              ├── Persona.java
+│                              └── Promocionable.java
+└── semana 5
+    ├── db-init
+    │   └── 01-schema.sql
+    ├── docker-compose.yml
+    ├── nbactions.xml
+    ├── pom.xml
+    └── src
+        └── main
+           └── java
+               └── com
+                   └── riwi
+                       └── talent
+                           ├── App.java
+                           ├── controller
+                           │   └── EmpleadoController.java
+                           ├── documentation
+                           │   └── NotasArquitectura.java
+                           ├── exception
+                           │   ├── BusinessException.java
+                           │   ├── DatabaseException.java
+                           │   └── EmpleadoYaExisteException.java
+                           ├── model
+                           │   ├── ConsultorExterno.java
+                           │   ├── DatabaseConnection.java
+                           │   ├── Desarrollador.java
+                           │   ├── DesempenioReport.java
+                           │   ├── EmpleadoDAOImpl.java
+                           │   ├── EmpleadoDAO.java
+                           │   ├── Empleado.java
+                           │   ├── EmpresaRecord.java
+                           │   ├── Gerente.java
+                           │   ├── Persona.java
+                           │   └── Promocionable.java
+                           └── view
+                               └── ConsoleView.java
 ```
 
 ## 🧪 Pruebas
@@ -101,7 +180,8 @@ El archivo generado se encontrará en la carpeta:
 target/
 ```
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Danilo-Doria
-
+- GitHub: **[Danilo-Doria](https://github.com/Danilo-Doria)**
+- LinkedIn: **[Danilo Doria Diaz](https://www.linkedin.com/in/danilodd)**
+- Mail: **danilodoria519@gmail.com**
