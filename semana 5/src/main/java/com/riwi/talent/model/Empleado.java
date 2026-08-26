@@ -7,7 +7,7 @@ package com.riwi.talent.model;
     getters, setter y métodos explícitamente. Esa verbosidad es útil cuando el
     objeto necesita estado mutable, como bonoMensual o nombre.
  */
-public final class Empleado extends Persona{
+public final class Empleado extends Persona {
 
     private final double salario;
     private double promedioDesempeno;
@@ -43,7 +43,7 @@ public final class Empleado extends Persona{
 
     @Override
     public String toString() {
-        return "Empleado " + "id= " + id + ", nombre= " + nombre;
+        return "Empleado " + "id= " + id + ", nombre= " + nombre + ", salario= " + salario;
     }
-    
+
 }

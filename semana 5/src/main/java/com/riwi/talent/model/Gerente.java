@@ -17,7 +17,7 @@ public final class Gerente extends Persona implements Promocionable {
     public void trabajar() {
         System.out.println("El gerente " + nombre + " gestiona un presupuesto de " + presupuestoMensual);
     }
-    
+
     @Override
     public double calcularBonoAscenso() {
         return presupuestoMensual * 0.05;

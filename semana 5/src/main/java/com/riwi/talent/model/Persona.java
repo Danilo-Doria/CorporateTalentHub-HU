@@ -32,7 +32,6 @@ package com.riwi.talent.model;
     excepciones de tipo inesperadas (MatchException o ClassCastException) 
     cuando el dominio evoluciona.
  */
-
 // Estilo Moderno (Java 17/21)
 public abstract sealed class Persona permits Empleado, ConsultorExterno,
         Desarrollador, Gerente {

@@ -71,4 +71,5 @@ public record DesempenioReport(
         double promedio,
         String feedback,
         String estado) {
+
 }

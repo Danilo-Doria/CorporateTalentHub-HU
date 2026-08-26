@@ -5,12 +5,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
+
     private static final String URL = "jdbc:postgresql://localhost:5432/riwi_talent_hub";
     private static final String USER = "postgres";
     private static final String PASSWORD = "postgres_123";
 
     // Constructor privado para evitar instanciación externa
-    private DatabaseConnection() {}
+    private DatabaseConnection() {
+    }
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
@@ -18,7 +20,7 @@ public class DatabaseConnection {
 
     /*
      * SINTAXIS LEGACY (Java 8 y anteriores):
-     * Anteriormente, los recursos como Connection, PreparedStatement y ResultSet 
+     * Anteriormente, los recursos como Connection, PreparedStatement y ResultSet
      * debían cerrarse manualmente dentro de un bloque 'finally'. 
      * Si ocurría una excepción durante el '.close()', se requerían bloques try-catch 
      * anidados, lo que generaba un código verboso (Boilerplate) y propenso a errores.

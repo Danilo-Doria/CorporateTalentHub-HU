@@ -20,6 +20,6 @@ public final class Desarrollador extends Persona implements Promocionable {
 
     @Override
     public double calcularBonoAscenso() {
-         return 1_500_000.0;
+        return 1_500_000.0;
     }
 }
